@@ -203,6 +203,22 @@ header {
     display: flex;
 }
 
+.about img {
+    width: 100%;        /* Make the image responsive to container width */
+    max-width: 600px;   /* Increase size on larger screens */
+    height: auto;       /* Maintain aspect ratio */
+    object-fit: cover;  /* Scale image without distortion */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 0 auto;     /* Center the image */
+}
+
+/* Center the container for larger screens */
+.about .half-width.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* About End */
 
 /* Footer */
@@ -265,6 +281,10 @@ footer {
 
     .button { 
         min-width: 0px;
+    }
+
+    .about img {
+        max-width: 100%; /* Allow full width on smaller screens */
     }
     
 }
