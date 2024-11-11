@@ -55,7 +55,7 @@ h2 {
 
 .box {
     padding: 2rem;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     text-align: center;
     flex-direction: column;
