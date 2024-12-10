@@ -78,10 +78,11 @@ h2 {
 }
 
 .section-header {
-    background-color: #f8f9fa;
+    background-color: #2C424C;
     margin: 0;
     padding: 15px;
     cursor: pointer;
+    color:#fff;
 }
 
 .section-content {
@@ -190,6 +191,7 @@ header {
     padding: 20px;
     background-color: var(--secondary-color);
     display: flex;
+    padding-top: 100px;
 }
 
 /* Info End */
@@ -236,7 +238,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    padding-top: 100px;
+   
 }
 
 /* Footer End */
@@ -260,6 +262,7 @@ footer {
 
     .info {
         flex-direction: column;
+        padding-top: 20px;
     }
 
     .about {
@@ -280,7 +283,7 @@ footer {
     }
 
     .button { 
-        min-width: 0px;
+        min-width: 250px;
     }
 
     .about img {
